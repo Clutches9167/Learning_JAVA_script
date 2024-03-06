@@ -18,3 +18,8 @@ console.log(valueInNumber);
 let loggedIn = ""  // 0 -> false,  1-> true, ""-> false ( bcz 0 string hai ), "Ansh" -> true . " " -> true (kyu ki space count hoga )
 let booleanConverison = Boolean(loggedIn)
 console.log(booleanConverison);
+
+let someNumber = 69
+let stringConverison = String(someNumber)
+console.log(stringConverison);
+console.log(typeof stringConverison); // number to string coverted
