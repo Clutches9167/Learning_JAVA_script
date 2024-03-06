@@ -36,6 +36,13 @@ console.log(+"");        //0
 // let num1, num2, num3
 // num1 = num2 = num3 = 2 + 2
 
+let gameCounter = 10
+// gameCounter++;
+++gameCounter;
+console.log(gameCounter);  // 101 for both cases see below WHY ++x , x++ difference 
+
+
+
 //  post and  prefix fix operators
 let c = 3;
 const d = c++;
