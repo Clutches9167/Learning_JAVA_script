@@ -15,3 +15,5 @@ console.table([customerId, emailAdd, name, accountPass, customerCountry, acccoun
 // customerId = 4322
 // console.log(customerId);
 
+
+//Note:-  use let not var because of issue in Block Scope and Functional Scope 
