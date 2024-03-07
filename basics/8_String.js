@@ -2,6 +2,7 @@ const name = "hitesh"
 const repoCount = 50
 
 // console.log(name + repoCount + " Value");
+// String interpolation 
 
 console.log(`Hello my name is ${name} and my repo count is ${repoCount}`);
 
@@ -26,7 +27,7 @@ const newStringOne = "   hitesh    "
 console.log(newStringOne);
 console.log(newStringOne.trim());
 
-// const url = "https://hitesh.com/hitesh%20choudhary"
+const url = "https://hitesh.com/hitesh%20choudhary"
 
 console.log(url.replace('%20', '-'))
 
